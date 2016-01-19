@@ -4,4 +4,5 @@ do
 	uuid=$(uuidgen)
 	uuid_lower=$(echo $uuid | tr '[:upper:]' '[:lower:]')
 	echo $uuid_lower >> uuid.csv
+	
 done
